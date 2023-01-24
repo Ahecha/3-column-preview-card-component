@@ -1,0 +1,106 @@
+:root {
+    --sedan-color: hsl(31, 77%, 52%);
+    --suv-color: hsl(184, 100%, 22%);
+    --luxury-color: hsl(179, 100%, 13%);
+}
+
+body {
+    min-height: 100vh;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+}
+
+.container {
+    width: 90%;
+}
+
+.titles {
+    color: white;
+    font-family: "Big Shoulders Display";
+    font-size: 2rem;
+    font-size: 700;
+    padding: 6% 0;
+
+}
+
+.img-container {
+    padding-bottom: 4%;
+}
+
+.sections {
+
+    padding: 10% 15%;
+}
+
+.paraphs {
+    font-size: 1rem;
+    padding: 4% 0;
+    opacity: 0.8;
+}
+
+.buttons-padding {
+    padding: 4% 0;
+}
+
+
+button {
+    padding: 5% 12%;
+    font-size: 0.9rem;
+}
+
+
+/* Individuals */
+
+.sedan-section {
+    background-color: var(--sedan-color);
+
+}
+
+.sedan-button {
+    color:  var(--sedan-color);
+    border-color: var(--sedan-color);
+}
+
+.suv-section {
+    background-color: var(--suv-color);
+
+}
+
+.suv-button {
+    color: var(--suv-color);
+
+}
+
+.luxury-section {
+    background-color: var(--luxury-color);
+
+}
+.luxury-button {
+    color: var(--luxury-color);
+    border-color: var(--luxury-color);
+} 
+
+@media (min-width: 992px) {
+    .container {
+        width: 51%;
+    
+    }
+
+    .sections {
+        padding: 4% 5% 0 5%;
+    }
+
+    .img-container {
+        padding-bottom: 6%;
+    }
+
+    .paraphs {
+        font-size: 0.8rem;
+        padding: 4% 0 15% 0;
+        opacity: 1;
+    }
+
+    .buttons-padding {
+        padding: 20% 0;
+    }
+}
